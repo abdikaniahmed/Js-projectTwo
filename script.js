@@ -3,10 +3,10 @@ const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('Movie');
-
+PopulateLUI();
 let ticketPrice = +movieSelect.value;
 
-PopulateLUI();
+
  
 //set Movie data
 function setMovieData(movieIndex, moviePrice){
